@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu restaurante italiano</title>
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #3c6e38;
+            color: white;
+            font-family: Arial, sans-serif;
+}
+
+.hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)),
+            url('https://restaurantecosi.com.br/wp-content/uploads/2024/07/restaurante-italiano-famoso-sao-paulo-1.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+}
+
+.hero h1 {
+            font-size: 5rem;
+            font-weight: bold;
+}
+
+.card {
+            background-color: #28a04c;
+            border: none;
+            transition: 0.3s;
+}
+
+.card:hover {
+            transform: scale(1.03);
+}
+
+footer {
+            background-color: rgb(35, 167, 105);
+}
+    </style>
+  </head>
+  <body>
+    <h1>Sapore d'Souza</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sapore d'Souza</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobrenos">Sobre Nós</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#promoçoes">Promoções</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cardapio">Cardápio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--COMIDINHA-->
+    <section class="hero">
+        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+            <h1><br>Sapore d'Souza</h1>
+            <p class="lead">"Aqui, cada prato conta uma história e cada cliente é um amigo."</p>
+            <a href="#sobrenos" class="btn btn-danger btn-lg mt-3">Conheça nossa história</a>
+        </div>
+    </section>
+     <!--SOBRENOS-->
+    <section id="sobrenos" class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="https://st.depositphotos.com/1004713/2018/i/450/depositphotos_20182959-stock-photo-cheerful-friends-chatting-while-lunch.jpg" class="img-fluid rounded">
+            </div>
+
+            <div class="col-md-6">
+                <h2 class="mb-4">Sobre Nós</h2>
+
+                <p>
+                   Jonas Souza,Chef altamente qualificado e formado em Gastronomia na UCB,fundou em 2026 um restaurante com tema italiano com a principal missão de que seus clientes não sejam apenas consumidores de seu produto mas também recebam um grande amor e carinho,se sintam parte de uma família e que possam gastar pouco para irem mais.
+                </p>
+
+                <p>
+                    Para saber mais sobre sua origem,conquistas e histórico, você pode assistir ao documentário Souza: A Gentileza Domina A Cozinha,ou ler assuntos autorizados detalhados na CNN Brasil e na BBC News.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- CAROUSEL -->
+    <section id="promoçoes" class="container py-5">
+        <h2 class="text-center mb-5">Promoções</h2>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner rounded">
+
+                <div class="carousel-item active">
+                    <img src="c:\Users\Veronica\Downloads\ChatGPT Image 14 de jun. de 2026, 21_22_03-redimensionado-para-700x600.jpeg" class="d-block w-100">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/ChatGPT Image 14 de jun. de 2026, 19_48_12-redimensionado-para-700x600.jpeg" class="d-block w-100">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="c:\Users\Veronica\Downloads\ChatGPT Image 14 de jun. de 2026, 21_09_16-redimensionado-para-700x600.jpeg" class="d-block w-100">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+    <section id="cardapio" class="container py-5">
+        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <h1>Cardápio</h1><br>
+        <h4>Além das promoções nosso restaurante possui uma diversidade de pratos,basta clicar aqui para dar uma olhada:</h4><br>
+        <a href="cardapio.html" class="botao">Ver Cardápio</a>
+        <style>
+        .botao {
+         display: inline-block;
+         background-color: #b22222;
+         color: white;
+         padding: 12px 25px;
+         text-decoration: none;
+         border-radius: 8px;
+         font-size: 18px;
+        }
+
+        .botao:hover {
+         background-color: #8b0000;
+        }
+        </style>
+        </div>
+    </section>
+    <!--ACCORDION-->
+    <section id="contato" class="container py-5">
+        <h2 class="text-center mb-5">Contato</h2>
+
+        <div class="accordion" id="accordionExample">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item1">
+                        Whatsapp
+                    </button>
+                </h2>
+
+                <div id="item1" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                       (61) 9 9670-4241
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item2">
+                        Instagram
+                    </button>
+                </h2>
+
+                <div id="item2" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                       Sapore_d'Souza
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item3">
+                        Retirada de pedido
+                    </button>
+                </h2>
+
+                <div id="item3" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                       St. de Habitações Individuais Norte CA 4 
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+     <footer class="text-center text-light p-4">
+        <p>© 2026 - Todos os Direitos Reservados🕊️</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
